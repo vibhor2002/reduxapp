@@ -3,7 +3,7 @@ export const depositMoney = (amount) => {
         dispatch({
             type: 'deposit',
             payload: amount
-        } )
+        })
     }
 }
 
@@ -13,6 +13,6 @@ export const withdrawMoney = (amount) => {
         dispatch({
             type: 'withdraw',
             payload: amount
-        } )
+        })
     }
 }
